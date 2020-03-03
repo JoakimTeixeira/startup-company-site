@@ -83,8 +83,6 @@ h1, h2, h3, p {
 
 #section-b ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 
 #section-b li {
@@ -125,4 +123,34 @@ h1, h2, h3, p {
 #main-footer a {
 	color: #2690d4;
 	text-decoration: none;
+}
+
+@media all and (min-width: 45em) {
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(auto, 25em));
+	}
+
+	#section-a .content-text {
+		columns: 2;
+	}
+
+	.content-wrap, 
+	#section-b ul {
+		grid-column: 2/4;
+	}
+
+	.box,
+	#main-footer div {
+		grid-column: span 2;
+	}
+
+	#section-b ul {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#section-b li {
+		width: 32%;
+	}
 }
