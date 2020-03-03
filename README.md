@@ -1,4 +1,4 @@
 # Startup Company Site
 Site for imaginary startup company.
 
-![image](https://user-images.githubusercontent.com/12193814/75735171-c8379a80-5cd8-11ea-9028-4b4c3afe7dbf.png)
+![image](https://user-images.githubusercontent.com/12193814/75751262-cf749d80-5d04-11ea-8fc3-c8a2ecaf8c94.png)
