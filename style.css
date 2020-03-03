@@ -1,9 +1,18 @@
-body {
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
 	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: #333;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	line-height: 1.5;
 	text-align: center;
 }
@@ -14,9 +23,8 @@ img {
 	height: auto;
 }
 
-h1, h2,h3, p {
-	margin: 0;
-	padding: 1em 0;
+h1, h2, h3, p {
+	padding: 1rem 0;
 }
 
 .btn {
@@ -24,8 +32,8 @@ h1, h2,h3, p {
 	background: #333;
 	color: #fff;
 	text-decoration: none;
-	padding: 1em 2em;
 	border: 1px solid #666;
+	padding: 1em 2em;
 	margin: .5em 0;
 }
 
@@ -36,16 +44,16 @@ h1, h2,h3, p {
 
 /* Header */
 
-#showcase {
+#main-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	min-height: 450px;
-	color: #fff;
 }
 
-#showcase .bg-image {
+#main-header .bg-image {
 	position: absolute;
-	background: #333 url('./images/programming.jpeg');
-	background-position: center;
-	background-repeat: no-repeat;
+	background: #333 url('./images/programming.jpeg') center no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 450px;
@@ -53,22 +61,18 @@ h1, h2,h3, p {
 	opacity: 0.3;
 }
 
-#showcase h1 {
-	padding-top: 100px;
-	padding-bottom: 0;
-}
-
-#showcase .content-wrap,
+#main-header .content-wrap,
 #section-a .content-wrap {
-	padding: 0 1.5em;
+	padding: 0 1.5rem;
 }
 
 /* Section A */
 
-#section-a {
+#section-a,
+#section-c {
 	background: #EAEAEA;
 	color: #333;
-	padding-bottom: 2em;
+	padding: 2em;
 }
 
 /* Section B */
@@ -93,10 +97,10 @@ h1, h2,h3, p {
 	padding: 1.5em;
 }
 
+/* Section C */
+
 #section-c {
 	background: #fff;
-	color: #333;
-	padding: 2em;
 }
 
 /* Section D */
