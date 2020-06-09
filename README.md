@@ -9,5 +9,5 @@ Site for an imaginary startup company.
 * Implemented responsiveness with CSS media-queries.
 * Refactored code using universal reset for margin and padding.
 
-## Additional information
+## Additional Information
 * All project images are free stock photos provided for [Pexels](https://www.pexels.com).
