@@ -5,9 +5,9 @@ Site for an imaginary startup company.
 
 ## What I've learned
 
-* Developed mobile-first site for imaginary startup using CSS Grid.
-* Implemented responsiveness with CSS media-queries.
-* Refactored code using universal reset for margin and padding.
+* Developed mobile-first site for imaginary startup using CSS Grid
+* Implemented responsiveness with CSS media-queries
+* Refactored code using universal reset for margin and padding
 
 ## Additional Information
-* All project images are free stock photos provided by [Pexels](https://www.pexels.com).
+* All project images are free stock photos provided by [Pexels](https://www.pexels.com)
